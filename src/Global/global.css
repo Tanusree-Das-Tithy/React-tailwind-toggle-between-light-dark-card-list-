@@ -1,0 +1,40 @@
+/** @format */
+
+#light {
+	@apply bg-white;
+}
+
+#dark {
+	@apply bg-black;
+}
+
+#light .section {
+	@apply text-black;
+}
+#dark .section {
+	@apply text-white;
+}
+
+#light .sectionList {
+	@apply text-black h-screen w-screen;
+}
+#dark .sectionList {
+	@apply text-white h-screen w-screen;
+}
+
+#light .textClass {
+	@apply first:p-3 p-5 border border-black;
+}
+#dark .textClass {
+	@apply first:p-3 p-5 border border-white;
+}
+
+.card {
+	@apply border rounded-md mb-3;
+}
+#light .card {
+	@apply border-black;
+}
+#dark .card {
+	@apply border-white;
+}
